@@ -49,7 +49,7 @@ export function Education() {
               <Reveal key={cert.title} delay={i * 0.08}>
                 <motion.div
                   whileHover={{ y: -4 }}
-                  className="group h-full rounded-2xl border border-border bg-card p-5 transition-colors hover:border-brand/40"
+                  className="group h-full rounded-2xl border border-border bg-card p-5 transition-colors hover:border-brand/40 hover:shadow-lg hover:shadow-brand/5 [@media(hover:none)]:border-brand/40 [@media(hover:none)]:shadow-lg [@media(hover:none)]:shadow-brand/5"
                 >
                   <Award className="h-6 w-6 text-brand" />
                   <h4 className="mt-3 text-sm font-medium leading-snug">{cert.title}</h4>
