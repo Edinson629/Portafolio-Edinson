@@ -56,7 +56,7 @@ export const projects: Project[] = [
     image: '/AirCucuta.png',
     tech: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS'],
     github: 'https://github.com/Edinson629',
-    demo: 'https://air-cucuta-1s1v-geovanyosorio0513-4526s-projects.vercel.app/',
+    demo: 'https://air-cucuta-1s1v.vercel.app/',
     problem:
       'La información sobre la calidad del aire estaba dispersa y era difícil de interpretar, lo que complicaba el seguimiento y análisis de los datos.',
     result:
@@ -70,7 +70,7 @@ export const projects: Project[] = [
     image: '/Nexora.png',
     tech: ['Next.js', 'TypeScript', 'Bootstrap', 'Lucide React'],
     github: 'https://github.com/Edinson629',
-    demo: 'https://nexora-geovanyosorio0513-4526s-projects.vercel.app/',
+    demo: 'https://nexora-chi-puce.vercel.app/',
     problem:
       'El negocio no tenía presencia online ni forma de vender fuera del local físico.',
     result:
@@ -83,7 +83,7 @@ export const projects: Project[] = [
     image: '/CyberGuardian.png',
     tech: ['Next.js', 'TypeScript', 'React', 'Radix UI'],
     github: 'https://github.com/Edinson629',
-    demo: 'https://cyber-guardian-otkt-geovanyosorio0513-4526s-projects.vercel.app/',
+    demo: 'https://cyber-guardian-otkt.vercel.app/',
     problem:
       'La creación manual de contraseñas solia dar como resultado credenciales débiles o repetidas, aumentando el riesgo de vulnerabilidades de seguridad.',
     result:
