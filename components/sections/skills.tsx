@@ -31,7 +31,7 @@ export function Skills() {
                     data-cursor-hover
                     whileHover={{ y: -5 }}
                     transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-                    className="group relative h-full overflow-hidden rounded-2xl border border-border bg-card p-5 transition-colors hover:border-brand/40 hover:shadow-lg hover:shadow-brand/5"
+                    className="group relative h-full overflow-hidden rounded-2xl border border-border bg-card p-5 transition-colors hover:border-brand/40 hover:shadow-lg hover:shadow-brand/5 [@media(hover:none)]:border-brand/40 [@media(hover:none)]:shadow-lg [@media(hover:none)]:shadow-brand/5"
                   >
                     <div className="flex items-center gap-3">
                       <TechIcon name={skill.icon} className="h-8 w-8 shrink-0" />
@@ -40,7 +40,7 @@ export function Skills() {
                     <p className="mt-3 text-xs leading-relaxed text-muted-foreground opacity-100 transition-all duration-300 [@media(hover:hover)]:opacity-0 [@media(hover:hover)]:group-hover:opacity-100">
                       {skill.description}
                     </p>
-                    <span className="pointer-events-none absolute -right-6 -top-6 h-16 w-16 rounded-full bg-brand/10 opacity-0 blur-xl transition-opacity group-hover:opacity-100" />
+                    <span className="pointer-events-none absolute -right-6 -top-6 h-16 w-16 rounded-full bg-brand/10 opacity-0 blur-xl transition-opacity group-hover:opacity-100 [@media(hover:none)]:opacity-100" />
                   </motion.div>
                 </Reveal>
               ))}
