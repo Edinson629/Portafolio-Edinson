@@ -11,7 +11,7 @@ export function Skills() {
       <SectionHeading
         eyebrow="Habilidades"
         title="Tecnologías y herramientas"
-        description="Pasa el cursor sobre cada tecnología para ver una breve descripción."
+        description="Cada tecnología incluye una breve descripción de mi experiencia."
       />
 
       <div className="space-y-10">
@@ -37,7 +37,7 @@ export function Skills() {
                       <TechIcon name={skill.icon} className="h-8 w-8 shrink-0" />
                       <span className="text-sm font-medium">{skill.name}</span>
                     </div>
-                    <p className="mt-3 text-xs leading-relaxed text-muted-foreground opacity-0 transition-all duration-300 group-hover:opacity-100">
+                    <p className="mt-3 text-xs leading-relaxed text-muted-foreground opacity-100 transition-all duration-300 [@media(hover:hover)]:opacity-0 [@media(hover:hover)]:group-hover:opacity-100">
                       {skill.description}
                     </p>
                     <span className="pointer-events-none absolute -right-6 -top-6 h-16 w-16 rounded-full bg-brand/10 opacity-0 blur-xl transition-opacity group-hover:opacity-100" />
